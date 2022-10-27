@@ -87,3 +87,17 @@
 .ex-9-img{
     transition: filter 2s, margin 2s, width 2s, border-radius 2s;
 }
+/* esercizio 10  */
+
+.ex-10-icon{
+    animation: rotate 1s infinite linear reverse;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    
+    to{
+        transform: rotate(360deg);
+    }
