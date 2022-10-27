@@ -75,3 +75,15 @@
 .ex-8-img{
     transition: filter 2s, border-radius 2s;
 }
+/* esercizio 9   */
+
+.ex-9-img:hover{
+    filter: sepia(75%) blur(2px);
+    margin: 0;
+    width: 577px;
+    border-radius: 35px;
+}
+
+.ex-9-img{
+    transition: filter 2s, margin 2s, width 2s, border-radius 2s;
+}
